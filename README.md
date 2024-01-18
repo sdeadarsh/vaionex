@@ -12,15 +12,15 @@
 1. Make sure to update your virtual env in pycharm to the one you created
 2. Add `app` folder to your project root
 
-Tasks that are performed
+## Tasks that are performed
 
-Your task is to implement a JSON api with the following endpoints:
+1. Your task is to implement a JSON api with the following endpoints:
     GET http://127.0.0.1:8000/api/v1/document/
 
-This should return a list of available titles.
+2. This should return a list of available titles.
     GET http://127.0.0.1:8000/api/v1/document/?title=titletosearch
 
-This should return a list of available revisions for a document.
+3. This should return a list of available revisions for a document.
     GET http://127.0.0.1:8000/api/v1/document/?title=titletosearch&timestamp=datetime
     This should return the document as it was at that timestamp.
     GET http://127.0.0.1:8000/api/v1/document/?title=titletosearch&latest=1
