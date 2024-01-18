@@ -12,7 +12,7 @@
 1. Make sure to update your virtual env in pycharm to the one you created
 2. Add `app` folder to your project root
 
-Tasks
+Tasks that are performed
 
 Your task is to implement a JSON api with the following endpoints:
     GET http://127.0.0.1:8000/api/v1/document/
